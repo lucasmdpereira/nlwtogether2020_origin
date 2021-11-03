@@ -14,12 +14,23 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/fonts/style.css" />
   </head>
   <body>
     <header id="header">
       <nav class="container">
         <a class="logo" href="#">beauty<span>salon.</span></a>
-        <div class="menu">MENU</div>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
 
@@ -33,7 +44,7 @@
             />
           </div>
           <div class="text">
-            <h1>Saúde natural para os seus cabelos</h1>
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
             <p>
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
@@ -44,7 +55,87 @@
       </section>
 
       <div class="divider-1"></div>
-      teste
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <image
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+              alt="3 mulheres sorrindo"
+            >
+            </image>
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+              ipsam pariatur, ipsa adipisci ipsum laboriosam ratione repudiandae
+              aliquid vitae, reiciendis id provident vel cumque consectetur
+              perspiciatis? Repellat omnis qui magni?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              esse voluptates rerum voluptas tenetur deserunt fugiat velit quia
+              omnis, tempora et corrupti sapiente ut maxime architecto amet!
+              Itaque, consequuntur saepe?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, id
+              provident. Perspiciatis eveniet tempore debitis veritatis enim sed
+              ipsam quibusdam repellendus quam vitae quia, necessitatibus
+              recusandae cupiditate ex quasi id.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus necessitatibus beatae vel voluptatibus hic sequi
+                velit.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus necessitatibus beatae vel voluptatibus hic sequi
+                velit.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus necessitatibus beatae vel voluptatibus hic sequi
+                velit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
