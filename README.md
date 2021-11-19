@@ -28,7 +28,7 @@
   Contains the following sections: Header, Navigation, Home, About, Services, Testimonials, Contact and Footer</p>
 
 <h3>🎓 Achievements</h3>
-<p>Use of external libraries for smooth scrolling and dynamic presentation content.<br>
+<p>Use of external libraries for smooth scrolling, dynamic presentation content and testimonials in carousel.<br>
 Use of JavaScript for "hamburger menu" in mobile mode and improved navigation in desktop mode.<br>
 Heavy use of responsive units in CSS and variables for colors and fonts.<br>
 Mobile first layout with media queries for responsiveness.</p>
